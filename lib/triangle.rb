@@ -2,7 +2,9 @@ class Triangle
   # write code here
   attr_accessor :side1, :side2, :side3
   def initialize(a,b,c)
-    @side1, @side2,@side3=a,b,c
+    @side1=a
+    @side2=b
+    @side3=c
 
   end
 
@@ -22,5 +24,3 @@ class Triangle
     end
   end
 end
-
-a=Triangle.new(2,3,4)
